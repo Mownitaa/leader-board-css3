@@ -155,9 +155,10 @@ hr{
 .course-duration{
     color: #ED6B4F;
     height: 29.38px;
+    padding: 5px 0px 0px 16px;
     width: 94.83px;
     background-color: #FEE5DF;
-    border-radius: 14.69px;
+    border-radius: 25px;
 }
 /* media querioes */
 
