@@ -8,6 +8,53 @@ body{
     font-family: 'Poppins', sans-serif; 
     background-color:#F3F1FF;
 }
+nav{
+    background-color: #562EFF;
+    width: 1440px;
+    height: 94px;
+    position: relative;
+    
+}
+.navbar{
+   display: flex ;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 10px;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40.42;
+    height: 51px ;
+}
+.logo p{
+    color: white;
+    padding-left: 10px;
+    width: 54px;
+    height: 36px;
+    font-size: larger;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-right: 65px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: white;
+    width: 48px;
+    height: 24px;
+    padding-right: 39px;
+}
 main{
     display: flex;
     flex-direction: column;
